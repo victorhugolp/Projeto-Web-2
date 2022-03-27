@@ -9,27 +9,26 @@
    
 }
 
+/* -- Header -- */
 
 
 #logo{   
-        width: 40px;
-        display: absolute;     
-        
-    }    
+    width: 40px;
+    display: absolute;     
+    
+}    
 
 #search{   
-    display: grid;   
-    width: 25px;         
-    height: 25px;    
-    }    
+display: grid;   
+width: 25px;         
+height: 25px;    
+}    
 
 #market{   
-        display: grid;   
-        width: 25px;         
-        height: 25px;
-    }    
-
-
+    display: grid;   
+    width: 25px;         
+    height: 25px;
+}    
 
 .header{   
     clear: both;
@@ -56,6 +55,7 @@
     font-size: 1rem;
 }
 
+/* -- Mid -- */
 
 .mid{  
     background: url("../img/fundo.jpg") 0 0 no-repeat ;    
@@ -118,6 +118,8 @@
     
 }
 
+/* -- Section -- */
+
 .container{
     width: 100%;
     margin: 0 auto;
@@ -158,4 +160,12 @@
     align-items: center;
     text-align: center;
     justify-content: center;
+}
+
+
+/* -- Responsividade -- */
+
+@media only screen and (max-width:360px) { 
+
+
 }

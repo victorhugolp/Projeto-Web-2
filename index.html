@@ -6,6 +6,7 @@
   <title> Razer United States</title>
   <link rel="stylesheet" href="css/style.css" />
   <link rel="shortcut icon" href="./img/logo.png" />    
+  
 </head>
 <body>
 
@@ -20,17 +21,54 @@
       
    
 <!-- Botões Header -->
+
+<div class="login-container">
+
+    <div class="login-body">
+     
+        
+        <form onkeyup="check()" id="login" autocomplete="off">
+            <h1 class="login">Login</h1>
+            <div class="colLog"><input id="email" type="text" name="login" placeholder="NOME DE USUÁRIO">
+                <br>
+            <input id="senha" type="password" name="password" placeholder="SENHA">
+            </div>
+            <br>
+            <div class="button">
+                <button id="login-btn" type="button" disabled>Enviar</button>
+            </div>
+        </form>
+    </div>
+
+    
+</div>
+<style>
+    button{width: 100%;
+        cursor: pointer;
+    }
+
+</style>
+<div>
+    
+</div>
+<div class="background-container">
+    <div class="background-alert" style="font-size"> aaaaaaaaaaaaa</div>
+</div>
+
+
+
     <button class="botao" id="pcButton">PC</button>
     <button class="botao" id="consoleButton">Console</button>
     <button class="botao" id="mobileButton">Mobile</button>
     <button class="botao" id="lifeStyleButton">LifeStyle</button>
     <button class="botao" id="servicesButton">Services</button>
     <button class="botao" id="communityButton">Community</button>
+    <input class="campo" type="text" name = "pesquisa">
     <button class="botao" id="supportButton">Support</button>
 
     <div class="botao">
       <span>
-          <img id="search" src="./img/search.png">     
+          <img id="search" src="./img/search.png" onclick="buscaApi()">     
       </span>
     </div>
     
@@ -66,7 +104,24 @@
         </div>
       </div>
     </section>
+
+    <style> .fund{
+        background-image: linear-gradient(45deg, green,rgba(0, 132, 255, 0.644));
+        
+    }
     
+    
+    </style> 
+    <div class="fund">
+        
+        <input type="text" class="pokename">
+
+        <input type="text" class="poketip">
+
+        <input type="text" class="pokehab">
+    </div>
+    
+    <script src="jav.js"></script>
 </body>
 </html>
 
